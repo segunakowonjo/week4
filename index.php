@@ -27,6 +27,14 @@ echo "<br><br>";
 echo substr($date, -2);
 echo "<br><br>";
 $date = explode("/",$date);
-foreach ($date as $value) {echo $value." ";
+foreach ($date as $value) {echo $value." ";}
+
+$year = array("2012",); echo "<br><br>";
+foreach ($year as $key => $value) {
+echo "True";
+echo "<br><br>";
+
 }
+
+
 ?>
